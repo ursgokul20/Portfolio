@@ -7,7 +7,7 @@ function Contact() {
     name: 'GOKULAKANNAN R',
     email: 'gokulakannanr2002@gmail.com',
     subject: '',
-    message: '',
+    message: ' ',
   })
   const [status, setStatus] = useState(null)
   const [loading, setLoading] = useState(false)

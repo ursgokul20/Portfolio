@@ -6,7 +6,7 @@ function Certificates() {
       issuer: 'NPTEL',
       date: 'Completed',
       badge: '75%',
-      pdfLink: '/nptel-certificate.pdf',
+      pdfLink: '/Portfolio/nptel-certificate.pdf',
     },
     {
       icon: '🐘',
@@ -14,7 +14,7 @@ function Certificates() {
       issuer: 'IIT Bombay (Spoken Tutorial Project)',
       date: 'Jan 2026',
       badge: '76.39%',
-      pdfLink: '/php-certificate.pdf',
+      pdfLink: '/Portfolio/php-certificate.pdf',
     },
   ]
 

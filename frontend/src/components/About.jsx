@@ -12,7 +12,7 @@ function About() {
         <div className="about-image-wrapper fade-in">
           <div className="about-image">
             <img
-              src="/photo.jpg"
+              src="/Portfolio/photo.jpg"
               alt="Gokulakannan"
               style={{
                 width: '100%',
@@ -102,16 +102,11 @@ function About() {
                   <div className="qual-period">2023</div>
                 </div>
               </div>
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginTop: '24px', width: '100%' }}>
+              <div style={{ marginTop: '24px', width: '100%', display: 'flex', justifyContent: 'flex-start' }}>
                 <img 
-                  src="/award1.jpg" 
-                  alt="Award Photo 1" 
-                  style={{ width: '100%', height: '220px', objectFit: 'cover', borderRadius: 'var(--radius-sm)', border: '1px solid var(--border-subtle)' }} 
-                />
-                <img 
-                  src="/award2.jpg" 
-                  alt="Award Photo 2" 
-                  style={{ width: '100%', height: '220px', objectFit: 'cover', borderRadius: 'var(--radius-sm)', border: '1px solid var(--border-subtle)' }} 
+                  src="/Portfolio/award1.jpg" 
+                  alt="Best Outstanding Student Award" 
+                  style={{ width: '100%', maxWidth: '350px', height: '250px', objectFit: 'cover', borderRadius: 'var(--radius-md)', border: '1px solid var(--border-subtle)' }} 
                 />
               </div>
             </div>

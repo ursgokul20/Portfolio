@@ -24,7 +24,7 @@ function Hero() {
             <a href="#projects" className="btn btn-primary">
               View My Work →
             </a>
-            <a href="/resume.pdf?v=2" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
+            <a href="/Portfolio/resume.pdf?v=2" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
               📄 View Resume
             </a>
             <a href="#contact" className="btn btn-secondary">

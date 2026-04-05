@@ -31,6 +31,16 @@ const FALLBACK_PROJECTS = [
     github_url: '#',
     color: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
   },
+  {
+    id: 4,
+    title: 'Three Layer Based Intelligent Data Privacy Protection System in Cloud',
+    description: 'Responsible for Developing the Secure storing in the cloud.',
+    tags: ['Cloud Security', 'Data Privacy'],
+    image: null,
+    live_url: '#',
+    github_url: '#',
+    color: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)',
+  },
 ]
 
 const API_URL = import.meta.env.VITE_API_URL || ''
