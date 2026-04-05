@@ -12,7 +12,7 @@ function About() {
         <div className="about-image-wrapper fade-in">
           <div className="about-image">
             <img
-              src="C:\Users\gokul\OneDrive\Desktop\Portfolio\frontend\public\photo.jpg"
+              src="/photo.jpg"
               alt="Gokulakannan"
               style={{
                 width: '100%',
