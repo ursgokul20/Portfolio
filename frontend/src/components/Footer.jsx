@@ -15,7 +15,7 @@ function Footer() {
 
           <div className="footer-socials">
             <a
-              href="https://github.com/"
+              href="https://github.com/ursgokul20"
               target="_blank"
               rel="noopener noreferrer"
               className="footer-social"
@@ -25,7 +25,7 @@ function Footer() {
               GH
             </a>
             <a
-              href="https://linkedin.com/"
+              href="https://www.linkedin.com/in/gokulakannan-r-921856300?utm_source=share_via&utm_content=profile&utm_medium=member_android"
               target="_blank"
               rel="noopener noreferrer"
               className="footer-social"
