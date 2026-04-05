@@ -40,7 +40,7 @@ function About() {
           <p className="about-text">
             I'm <strong>Gokulakannan</strong>, a B.E Cybersecurity student with
             a deep passion for both protecting digital systems and building them.
-            I specialize in ethical hacking, network security, and full stack
+            I specialize in network security, and full stack
             web development using React.js and Python.
           </p>
 
@@ -58,15 +58,15 @@ function About() {
               <div className="qual-marker" />
               <div className="qual-content">
                 <div className="qual-title">B.E in Cybersecurity</div>
-                <div className="qual-institution">University</div>
+                <div className="qual-institution">PAAVAI ENGINEERING COLLEGE</div>
                 <div className="qual-period">Currently Pursuing</div>
               </div>
             </div>
             <div className="glass-card qual-item">
               <div className="qual-marker" />
               <div className="qual-content">
-                <div className="qual-title">Higher Secondary (12th)</div>
-                <div className="qual-institution">School</div>
+                <div className="qual-title">Diploma in Computer Engineering</div>
+                <div className="qual-institution">PAAVAI POLYTECHNIC COLLEGE</div>
                 <div className="qual-period">Completed</div>
               </div>
             </div>

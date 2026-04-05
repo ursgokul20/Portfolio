@@ -4,8 +4,8 @@ const API_URL = import.meta.env.VITE_API_URL || ''
 
 function Contact() {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
+    name: 'GOKULAKANNAN R',
+    email: 'gokulakannanr2002@gmail.com',
     subject: '',
     message: '',
   })
