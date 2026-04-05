@@ -11,22 +11,15 @@ function About() {
       <div className="container">
         <div className="about-image-wrapper fade-in">
           <div className="about-image">
-            {/* Replace the src below with your actual photo path */}
-            <div style={{
-              width: '100%',
-              height: '500px',
-              background: 'linear-gradient(135deg, rgba(129,140,248,0.2), rgba(192,132,252,0.15), rgba(244,114,182,0.1))',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              flexDirection: 'column',
-              gap: '16px',
-            }}>
-              <span style={{ fontSize: '6rem' }}>👨‍💻</span>
-              <span style={{ fontSize: '0.9rem', color: 'var(--text-tertiary)' }}>
-                Add your photo here
-              </span>
-            </div>
+            <img
+              src="C:\Users\gokul\OneDrive\Desktop\Portfolio\frontend\public\photo.jpg"
+              alt="Gokulakannan"
+              style={{
+                width: '100%',
+                height: '500px',
+                objectFit: 'cover',
+              }}
+            />
           </div>
           <div className="about-image-glow" />
         </div>
