@@ -6,6 +6,7 @@ function Certificates() {
       issuer: 'NPTEL',
       date: 'Completed',
       badge: '75%',
+      pdfLink: '/nptel-certificate.pdf',
     },
     {
       icon: '🐘',
@@ -13,6 +14,7 @@ function Certificates() {
       issuer: 'IIT Bombay (Spoken Tutorial Project)',
       date: 'Jan 2026',
       badge: '76.39%',
+      pdfLink: '/php-certificate.pdf',
     },
   ]
 
@@ -43,9 +45,16 @@ function Certificates() {
                 <p className="cert-issuer">{cert.issuer}</p>
                 <p className="cert-date">{cert.date}</p>
               </div>
-              {cert.badge && (
-                <span className="cert-badge">{cert.badge}</span>
-              )}
+              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '0.5rem' }}>
+                {cert.badge && (
+                  <span className="cert-badge">{cert.badge}</span>
+                )}
+                {cert.pdfLink && (
+                  <a href={cert.pdfLink} target="_blank" rel="noopener noreferrer" style={{ fontSize: '0.8rem', color: '#818cf8', textDecoration: 'none', fontWeight: '500' }}>
+                    View PDF ↗
+                  </a>
+                )}
+              </div>
             </div>
           ))}
         </div>

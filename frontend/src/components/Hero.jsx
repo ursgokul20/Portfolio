@@ -24,6 +24,9 @@ function Hero() {
             <a href="#projects" className="btn btn-primary">
               View My Work →
             </a>
+            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
+              📄 View Resume
+            </a>
             <a href="#contact" className="btn btn-secondary">
               Get In Touch
             </a>
