@@ -91,7 +91,33 @@ function About() {
             </div>
           </div>
 
-          <div className="about-highlights" style={{ marginTop: '30px' }}>
+          <h3 style={{ marginTop: '2.5rem' }}>Awards & Activities</h3>
+          <div className="qualifications-list" style={{ marginTop: '20px' }}>
+            <div className="glass-card qual-item" style={{ flexDirection: 'column' }}>
+              <div style={{ display: 'flex', gap: '20px', width: '100%' }}>
+                <div className="qual-marker" />
+                <div className="qual-content">
+                  <div className="qual-title">Best Outstanding Student Award of DCSE</div>
+                  <div className="qual-institution">Paavai Institutions</div>
+                  <div className="qual-period">2023</div>
+                </div>
+              </div>
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginTop: '24px', width: '100%' }}>
+                <img 
+                  src="/award1.jpg" 
+                  alt="Award Photo 1" 
+                  style={{ width: '100%', height: '220px', objectFit: 'cover', borderRadius: 'var(--radius-sm)', border: '1px solid var(--border-subtle)' }} 
+                />
+                <img 
+                  src="/award2.jpg" 
+                  alt="Award Photo 2" 
+                  style={{ width: '100%', height: '220px', objectFit: 'cover', borderRadius: 'var(--radius-sm)', border: '1px solid var(--border-subtle)' }} 
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className="about-highlights" style={{ marginTop: '40px' }}>
             {highlights.map((item, index) => (
               <div key={index} className="about-highlight">
                 <span className="about-highlight-icon">{item.icon}</span>
