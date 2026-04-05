@@ -65,6 +65,32 @@ function About() {
             </div>
           </div>
 
+          <h3 style={{ marginTop: '2.5rem' }}>Experience</h3>
+          <div className="qualifications-list">
+            <div className="glass-card qual-item">
+              <div className="qual-marker" />
+              <div className="qual-content">
+                <div className="qual-title">Network Engineer & Oracle Developer Intern</div>
+                <div className="qual-institution">TNPL</div>
+                <div className="qual-period">03 Mar 2026 – 18 Mar 2026</div>
+                <p style={{ marginTop: '0.8rem', fontSize: '0.95rem', color: 'var(--text-secondary)' }}>
+                  Worked on network configuration, database management, basic Oracle operations and Firewall Security.
+                </p>
+              </div>
+            </div>
+            <div className="glass-card qual-item">
+              <div className="qual-marker" />
+              <div className="qual-content">
+                <div className="qual-title">SOC Analyst Intern</div>
+                <div className="qual-institution">BNJ Tech Pvt.Ltd</div>
+                <div className="qual-period">Jan 2026 – Feb 2026</div>
+                <p style={{ marginTop: '0.8rem', fontSize: '0.95rem', color: 'var(--text-secondary)' }}>
+                  Worked with real-time security monitoring and threat assesment.
+                </p>
+              </div>
+            </div>
+          </div>
+
           <div className="about-highlights" style={{ marginTop: '30px' }}>
             {highlights.map((item, index) => (
               <div key={index} className="about-highlight">
