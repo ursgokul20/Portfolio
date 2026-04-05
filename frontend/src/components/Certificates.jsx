@@ -1,46 +1,18 @@
 function Certificates() {
   const certificates = [
     {
-      icon: '🛡️',
-      name: 'Certified Ethical Hacker (CEH)',
-      issuer: 'EC-Council',
-      date: '2025',
-      badge: 'Verified',
-    },
-    {
-      icon: '🔒',
-      name: 'CompTIA Security+',
-      issuer: 'CompTIA',
-      date: '2025',
-      badge: 'Active',
-    },
-    {
-      icon: '☁️',
-      name: 'AWS Cloud Practitioner',
-      issuer: 'Amazon Web Services',
-      date: '2024',
-      badge: 'Verified',
-    },
-    {
-      icon: '🐍',
-      name: 'Python for Cybersecurity',
-      issuer: 'Coursera',
-      date: '2024',
-      badge: 'Completed',
-    },
-    {
       icon: '🌐',
-      name: 'Network Security Fundamentals',
-      issuer: 'Cisco Networking Academy',
-      date: '2024',
-      badge: 'Verified',
+      name: 'Introduction to Internet of Things',
+      issuer: 'NPTEL',
+      date: 'Completed',
+      badge: '75%',
     },
     {
-      icon: '⚛️',
-      name: 'Meta Front-End Developer',
-      issuer: 'Meta (via Coursera)',
-      date: '2024',
-      badge: 'Completed',
+      icon: '🐘',
+      name: 'PHP and MySQL Training',
+      issuer: 'IIT Bombay (Spoken Tutorial Project)',
+      date: 'Jan 2026',
+      badge: '76.39%',
     },
   ]
 

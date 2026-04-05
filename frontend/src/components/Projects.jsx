@@ -3,9 +3,9 @@ import { useState, useEffect } from 'react'
 const FALLBACK_PROJECTS = [
   {
     id: 1,
-    title: 'E-Commerce Platform',
-    description: 'A full-stack e-commerce application with real-time inventory management, payment integration, and admin dashboard.',
-    tags: ['React', 'Python', 'Supabase', 'Stripe'],
+    title: 'Image Steganography',
+    description: 'Safety approach based on security key for image steganography for confidentiality and integrity.',
+    tags: ['Security', 'Cryptography'],
     image: null,
     live_url: '#',
     github_url: '#',
@@ -13,9 +13,9 @@ const FALLBACK_PROJECTS = [
   },
   {
     id: 2,
-    title: 'AI Chat Application',
-    description: 'An intelligent chatbot powered by machine learning with real-time messaging and conversation history.',
-    tags: ['React', 'FastAPI', 'WebSocket', 'OpenAI'],
+    title: 'Blockchain Patient Data Management',
+    description: 'Responsible for Developing the Secure Patient data management system using blockchain.',
+    tags: ['Blockchain', 'Healthcare', 'Security'],
     image: null,
     live_url: '#',
     github_url: '#',
@@ -23,23 +23,13 @@ const FALLBACK_PROJECTS = [
   },
   {
     id: 3,
-    title: 'Task Management Dashboard',
-    description: 'A collaborative project management tool with drag-and-drop boards, real-time updates, and team analytics.',
-    tags: ['React', 'Node.js', 'PostgreSQL', 'Socket.io'],
+    title: 'Automated Malware Analysis Platform (AMAP)',
+    description: 'Responsible for Developing the Secure Datas against from the Hackers using AMAP. Three layer based Intelligent data privacy protection system.',
+    tags: ['Malware Analysis', 'Data Privacy', 'AMAP'],
     image: null,
     live_url: '#',
     github_url: '#',
     color: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
-  },
-  {
-    id: 4,
-    title: 'Social Media Analytics',
-    description: 'A data visualization platform for tracking social media metrics with interactive charts and automated reports.',
-    tags: ['React', 'Python', 'D3.js', 'REST API'],
-    image: null,
-    live_url: '#',
-    github_url: '#',
-    color: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)',
   },
 ]
 
